@@ -1,16 +1,16 @@
-1,El principi,180
-1,El final,170
-1,X,160
-1,Se preparo,200
-1,La cancion,190
-1,Con calma,220
-1,Caramelo,230
-1,Te bote,150
-1,Dakiti,140
-1,Hawai,210
-1,Criminal,220
-1,Una locura,180
-1,911,190
-1,Reggaeton,200
-1,Rojo,250
-1,Azul,260
+1,2,2,El principi,180
+1,2,4,El final,170
+1,3,6,X,160
+1,4,8,Se preparo,200
+1,4,10,La cancion,190
+1,1,12,Con calma,220
+1,4,14,Caramelo,230
+1,2,16,Te bote,150
+1,3,1,Dakiti,140
+1,4,3,Hawai,210
+1,4,5,Criminal,220
+1,2,7,Una locura,180
+1,1,9,911,190
+1,1,11,Reggaeton,200
+1,2,13,Rojo,250
+1,4,15,Azul,260

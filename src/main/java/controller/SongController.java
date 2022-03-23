@@ -55,7 +55,7 @@ public class SongController {
     BufferedReader br = new BufferedReader(new FileReader(songsFile));
     String linea = "";
 
-    List<Album> albumList = albumController.readAlbumsFile(albumsFile, "src/main/resources/albums.txt", "src/main/resources/artistes.txt");
+    List<Album> albumList = albumController.readAlbumsFile(albumsFile, "src/main/resources/albums.txt", "src/main/resources/artists.txt");
     List<Artist> artistList = artistController.readArtistsFile(artistsFile);
 
     while ((linea = br.readLine()) != null) {

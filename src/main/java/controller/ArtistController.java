@@ -43,6 +43,7 @@ public class ArtistController {
       firstname = str.nextToken();
       lastname = str.nextToken();
 
+
       try {
         born = dateFormat.parse(str.nextToken());
         died = dateFormat.parse(str.nextToken());
@@ -107,7 +108,7 @@ public class ArtistController {
     em.close();
   }
 
-  /* Method to DELETE an Artist from the records */
+  /* Method to DELETE an Artist from the records artist*/
   public void deleteArtist(Integer artistId) {
     EntityManager em = entityManagerFactory.createEntityManager();
     em.getTransaction().begin();

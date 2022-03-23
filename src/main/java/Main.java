@@ -76,10 +76,10 @@ public class Main {
         try {
 
           List<Artist> artists = artistController.readArtistsFile("src/main/resources/artists.txt");
-          List<Album> albums = songController.readSongsFile("src/main/resources/songs.txt", "src/main/resources/albums.txt", "src/main/resources/songs.txt");
-          List<Song> songs = songController.readSongsFile("src/main/resources/songs.txt", "src/main/resources/artistes.txt");
+          List<Album> albums = songController.readSongsFile("src/main/resources/songs.txt", "src/main/resources/albums.txt", "src/main/resources/artists.txt");
+          List<Song> songs = songController.readSongsFile("src/main/resources/songs.txt", "src/main/resources/artists.txt");
 
-          System.out.println("Revistes llegides des del fitxer");
+          System.out.println("Albums llegits des del fitxer");
           for (int i = 0; i < albums.size(); i++) {
             System.out.println(albums.get(i).toString()+"\n");
             for (int j = 0; j < albums.get(i).getSongs().size(); j++) {
